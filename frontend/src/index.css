@@ -1,0 +1,98 @@
+:root {
+  font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+  color: #e5e7eb;
+  background-color: #0f172a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background: #111827;
+  color: #f9fafb;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #e5e7eb;
+}
+
+.theme-label {
+  font-size: 12px;
+}
+
+.app-sider,
+.app-aside {
+  background: #0b1220;
+  padding: 20px;
+}
+
+.app-content {
+  padding: 24px;
+  background: #0f172a;
+}
+
+.watchlist {
+  margin-top: 12px;
+}
+
+.watchlist .ant-list-item {
+  cursor: pointer;
+  padding: 8px 4px;
+  border-bottom: none;
+  color: #d1d5db;
+}
+
+.watchlist .ant-list-item.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-radius: 6px;
+  color: #93c5fd;
+}
+
+.empty-state {
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-box {
+  margin-top: 12px;
+  padding: 12px;
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 8px;
+  color: #e2e8f0;
+}
+
+.signal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.app-footer {
+  background: #111827;
+  padding: 12px 24px;
+}
+
+.footer-status {
+  max-width: 240px;
+}
